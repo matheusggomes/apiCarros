@@ -9,8 +9,8 @@ CREATE TABLE carros
     placa varchar(7)
 );
 
-INSERT INTO carros (modelo, placa) VALUES ('Fusca Azul','DDD0000'); 
+insert into carros (modelo, placa) values ('Fusca Azul','DDD0000');
+insert into carros (modelo, placa) values ('Honda Fit','GJG3566');
 
 
-
-SELECT * FROM carros
+select * from carros
